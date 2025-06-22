@@ -1,0 +1,19 @@
+{
+  "webhook_url": "https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN",
+  "calendar_type": "gregorian",
+  "bot_settings": {
+    "username": "Orthodox Calendar",
+    "avatar_url": "https://orthocal.info/favicon.ico"
+  },
+  "message_settings": {
+    "include_readings": true,
+    "max_saints": 5,
+    "max_readings": 6,
+    "use_liturgical_colors": true
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "orthodox_calendar_bot.log"
+  }
+}
+
